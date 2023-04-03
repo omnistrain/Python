@@ -1,0 +1,213 @@
+#ajoute un commentaire
+
+
+
+Ecrire un script qui fait la puissance d'un nombre par 3
+division de ce resultat par deux en utilisant les decalages de bite
+
+afficher le résultat = le resultat est => <resultat>
+"=>" ne se trouve pas dans la chaine de caracteres (utiliser un parametre de print())
+
+
+
+Ecrire un programme :
+Qui calcule le prix TTC de 3 articles (HT vous appliquez la TVA)
+
+Affichage :
+
+"Le prix de l'article HT => <prix>
+##################################
+Le prix de l'article TTC => <pric ttc avec 2 chiffres apres la virgule>
+
+
+
+Jeu : shifumi
+Le jeu propose à deux joueurs de s'affronter sur un duel Shifumi
+le premier arriver à trois à gagner la partie
+cependant la partie continue tant qu'il n'y a pas 2 points d'écarts
+
+Vous allez le rendre plus modulaire
+separation du moteur et de l'affichage
+
+vous proposez un menu :
+1) Affrontez un joueur
+2) Affrontez IA
+3) Quittez
+
+a chaque fin de partie il vous affiche le menu tant que vous n'avez pas quitté.
+Implémentez la partie IIIIAAAA (module random)
+
+
+
+
+--------------------------------------------------
+
+
+#pour une chaine de caracteres, determine par recursivite sa longueur
+
+
+#rendre recursif
+def somme(L):
+    s=0 :
+    for val in L :
+        s+=val
+    return s
+
+#Ecrire une fonction récursive « Binaire » permettant d’imprimer à l’écran la représentation binaire d’un nombre N.
+
+
+#ecrire la suite de Fibonacci en récursif fib(n)
+
+#la factorielle
+
+#donner un nombre et determiner tous les nombres premiers précédents.
+
+#ecrire un programme qui determine si un mot est un palindrome.
+
+
+
+CREER un programme qui rentre un nombre d'élève
+un nombre de matière
+
+pour chaque eleve et chaque matiere : demander à l'utilisateur de rentrer des notes (un nombre aléatoire)
+
+une fois terminé :
+
+vous faites par élève :
+
+Moyenne dans la matiere
+Note la plus haute dans la matiere
+Notre la plus basse dans la matiere
+Moyenne général
+
+
+Global :
+Moyenne générale de la classe
+Note la plus haute (élèves et matieres)
+Note la plus basse (élèves et matieres)
+
+
+
+
+Todolist avec un dictionnaire.
+
+Vous rajouter X element todo liste
+
+et ensuite le programme quel todo executer ?
+
+Ca vous enleve le todo dans la todo liste et ca vous affiche la tache.
+
+Votre programme boucle tant que vous n'avez demandé de sortir.
+
+Menu propose :
+
+1) Ajout d'un todo
+2) Execution d'un todo
+3) Affichage de la todolist
+4) Quitter
+
+
+
+
+Ecrire un jeu de bataille navale 1 joueur contre 1 joueur ou contre IA.
+
+Les plateaux des joueurs sont generes automatiquement.
+1 porte avion   4 cases
+2 bateaux        2 cases
+1 intermediaire 3 cases
+
+Chaque joueur joue a tour de role
+quand un joueur joue on affiche la MAP des zones deja attaquées et touchées de l'autre joueur
+(* quand une zonne non joué, O quand c'est à l'eau et un X quand c'est touché)
+le joueur qui gagne la partie est celui qui a tout coule en premier
+
+
+
+une application
+
+avec un main qui propose un menu : add sous div fact quitter
+
+quand l'utilisateur un choix il effectue l'action en fonction des parametres
+
+proposer un programme modulaire (par exemple : utils.math.<function>())
+
+vous rajoutez un main a votre fichier principal :)
+
+
+------------------
+
+
+CREER un petit programme (avec des modules)
+
+qui permet de creer des voitures qui ont :
+une couleur
+une marque
+un prix
+avec un redefinition __str__ et __repr__
+et une fonction klaxonner qui affiche : la voiture <couleur> de marque <marque> a klaxonné.
+
+
+--------------------
+
+
+Programme qui va gerer un compte
+
+.solde() permet de connaitre l'état du compte
+compte + xxxx permet de rajouter de l'argent et informer l'utilisateur
+compte - xxxx permet de sous de l'argent et en informe l'utilisateur
+
+compte + xxxx     __add__
+compte += xxxxx   __iadd__
+
+def __add__(self, a):
+    return compte.solde + a
+
+del __iadd__(self, a):
+    self.compte += a
+    return self
+
+compte += 1
+
+et on oublie pas __repr__ / __str__
+
+un compte s'initialise avec une valeur de départ.
+
+
+------------------
+
+
+Vous allez faire jeu de combat.
+
+VOLEUR, MAGE, GUERRIER ....
+
+
+le but du jeu c'est de faire jouer deux personnes l'un contre l'autre.
+joueur attaque joueur 2 ==== il perd des points de vie par rapport un multiplicateur random des points d'action du joueur 1
+et autour du joueur deux.
+
+Le perdant est le premier joueur à atteindre 0.
+
+
+
+
+-------
+
+Sur le jeu bataille navale :
+Appliquer un model Objet à ce jeu....
+
+(plateau)
+(joueur)
+
+
+------------
+Fichier texte :
+addition 3 4 5 6 34 12
+soustraction 3 4 6 7 8 9
+xxxx
+
+Faite un programme qui lit le fichier et execute l'operation indique en debut de ligne avec en arguments les éléments du reste de la ligne
+Gerer les exceptions
+ET .... utiliser des lambdas
+
+--------------
+CREER UN CRUD TODO LIST :)
