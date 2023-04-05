@@ -3,6 +3,7 @@ QUELQUES REGLES IMPORTANTES PEP8
 
 Encodage :
 UTF8
+
 L'indentation :
 4 caractères.
 
